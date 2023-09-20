@@ -6,20 +6,20 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link href="./_app/immutable/assets/2.98d2311f.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.59801333.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.71e568c9.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.94304fe0.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.3a9475f7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.ef2f2a3b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.65fa09c6.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.c5af3f48.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.5e58a435.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.4c527731.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.a1b0fa4d.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <div id="content" class="svelte-1edzh6g"><h1 data-svelte-h="svelte-3ddv85">Hexdump Helper</h1> <textarea id="input_field" name="input_field" placeholder="Paste hexdump here" rows="25" cols="125"></textarea> <p></p> <button data-svelte-h="svelte-1wuzb3t">Strip byte markers</button> <p>Selected bytes: 1</p> <hr> <p data-svelte-h="svelte-c7pusb">Hex:</p> <p></p> <hr> <p data-svelte-h="svelte-6qkox3">Int:</p> <p></p> <hr> <p data-svelte-h="svelte-7s5fwd">Str:</p> <p></p> </div> 
+		<div style="display: contents">  <div id="content" class="svelte-1edzh6g"><h1 data-svelte-h="svelte-3ddv85">Hexdump Helper</h1> <ol data-svelte-h="svelte-13ibo7p"><li>Paste hexdump into input field</li> <li>Strip the byte count markers by clicking the button below</li> <li>Select bytes to decode</li></ol> <textarea id="input_field" name="input_field" placeholder="Paste hexdump here" rows="25" cols="125"></textarea> <p></p> <button data-svelte-h="svelte-1wuzb3t">Strip byte markers</button> <p>Selected bytes: 1</p> <hr> <p data-svelte-h="svelte-29sfah"><b>Numbers</b></p> <p>Hex: </p> <p>Int: </p> <hr> <p data-svelte-h="svelte-sy00po"><b>String</b></p> <p></p> </div> 
 			
 			<script>
 				{
-					__sveltekit_34yugh = {
+					__sveltekit_9upizh = {
 						assets: "/hexdump-helper",
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
@@ -30,8 +30,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.59801333.js"),
-						import("./_app/immutable/entry/app.3a9475f7.js")
+						import("./_app/immutable/entry/start.71e568c9.js"),
+						import("./_app/immutable/entry/app.65fa09c6.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
